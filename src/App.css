@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* Home Component Styling */
 *{
   margin: 0;
@@ -12,12 +13,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(39, 44, 63);
+  background-color: rgb(41, 55, 97);
 }
 
 .home-container h1{
-  color: gainsboro;
-  font-size: 2.5rem;
+  color: rgb(247, 243, 243);
+  font-size: 3.5rem;
   font-family: 'Courier New', Courier monospace;
   font-weight: 100;
   letter-spacing: 1px;
@@ -26,12 +27,14 @@
 .home-container button{
   background-color: rgb(19, 150, 30);
   color: antiquewhite;
+  font-family: 'sans-serif';
+  font-size: 25px;
   width: 260px;
   height: 40px;
   border-radius: 20px;
   text-align: center;
   padding: 5px;
-  margin-top: 15px;
+  margin-top: 16px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -47,13 +50,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(39, 51, 87); 
+  background-color: rgb(41, 55, 97); 
 }
 
 .quiz-container{
   display: flex;
   flex-direction: column;
-  background-color: rgb(119, 112, 85);
+  position: absolute;
+  place-items: center;
+  background-color: rgb(240, 245, 245);
   margin-top: 30px;
   width: 80%;
   border-left: 4px solid rgb(3, 23, 31);
@@ -61,11 +66,10 @@
 }
 
 .quiz-container h1{
-  color: black;
-  text-align: center;
-  font-size: 4.5rem;
+  place-items: center;
+  font-size: 45px;
   font-family: 'Courier New', Courier, monospace;
-  margin-top: 50px;
+  padding-top: 30px;
   font-weight: 100;
 }
 
@@ -150,26 +154,27 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: auto;
   align-items: center;
-  background-color: rgb(4, 70, 87);
+  background-color: rgb(41, 55, 97);
 }
 
-.fa-check-circle{
-  font-size: 7rem;
-  /* margin-top: 15px; */
-}
+
 
 .result-main-container h1{
-  color: rgb(2, 5, 2);
-  font-size: 4rem;
-  margin-top: 25px;
-  font-weight: 300;
+  color:  #35f535;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .result-container{
-  background-color: rgb(199, 198, 158);
-  width: 50%;
-  height: 50vh;
+  background-color:  rgb(240, 245, 245);
+  width: 50vw;
+  height: 55vh;
+  border-left: 4px solid rgb(3, 23, 31);
   
 }
 
@@ -230,4 +235,9 @@
 .button-container button:nth-child(2){
   color: greenyellow;
   border: 1px solid greenyellow;
+}
+
+.fa-check-circle{
+  font-size: 50px;
+  color: #35f535;
 }

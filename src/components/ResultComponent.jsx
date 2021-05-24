@@ -4,7 +4,7 @@ export default class ResultComponent extends Component{
         return(
             <div className="result-main-container">
                 <i class="fa fa-check-circle" aria-hidden="true"></i>
-                <h1>Result</h1>
+                <h1 className="result">Result</h1>
                 <div className="result-container">
                     <h3>You need more practice!</h3>
                     <h2>Your Score: 20%</h2>
